@@ -72,5 +72,6 @@ public class MainDrawLine : MonoBehaviour
         //render line to the world origin and not to the object's position
         line.useWorldSpace = true;
 
+        line.gameObject.layer = LayerMask.NameToLayer("MainLayer");
     }
 }
