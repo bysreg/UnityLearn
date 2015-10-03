@@ -1,7 +1,6 @@
 UnityVS*/
 UnityVS.meta
 Build*/
-Library/
 obj/
 Temp/
 *.csproj
@@ -17,3 +16,4 @@ Temp/
 *.pyc
 __pycache__/
 *.class
+/Library
